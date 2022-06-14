@@ -188,17 +188,17 @@ h3 {
 
 /* Accommodations section ------------------------------------------------------------------------------------------------------ */
 
-.main {
-    display: flex;
-}
-
 .accommodations-section{
     display: flex;
 }
 
+.accommodations-container {
+    background-color: #F2F2F2;
+    border-radius: 25px;
+}
+
 .accommodations-cards {
     display: flex;
-    flex-flow: wrap row;
     justify-content: center;
     margin-right: 40px;
     flex: 3;
