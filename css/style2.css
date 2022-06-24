@@ -199,11 +199,17 @@ h3 {
 
 .accommodations-cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-right: 40px;
     flex: 3;
     background-color: #F2F2F2;
     border-radius: 25px;
+}
+
+.card-accommodations {
+    display: flex;
+    flex: 1 1 33.33333%;
 }
 
 /* Most Popular section ------------------------------------------------------------------------------------------------------ */
