@@ -198,7 +198,7 @@ h3 {
 /* Accommodations section ------------------------------------------------------------------------------------------------------ */
 
 .accommodations {
-  padding: 0 40px;
+  padding-left: 70px;
 }
 
 .accommodations-section {
@@ -207,19 +207,21 @@ h3 {
 
 .accommodations-container {
   background-color: #f2f2f2;
-  margin-right: 40px;
+  margin-right: 50px;
+  margin-left: 50px;
   border-radius: 25px;
 }
 
 .accommodations-title > h1 {
     padding-left: 15px;
     padding-top: 40px;
+    padding-bottom: 15px;
 }
 
 .accommodations-cards {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 40px;
+  margin-right: 25px;
   background-color: #f2f2f2;
   border-radius: 25px;
 }
@@ -257,19 +259,19 @@ h3 {
 .most-popular {
   flex: 1;
   display: flex;
-  justify-content: space-around;
   flex-flow: wrap column;
   background-color: #f2f2f2;
   border-radius: 25px;
+  margin-right: 40px;
 }
 
 .most-pop-cards {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .most-pop-title > h1 {
-  padding-left: 40px;
+  padding-left: 50px;
 }            
 
 .card-pop {
