@@ -160,12 +160,12 @@ h3 {
   margin: 0px 40px 0px 40px;
 }
 
-.search-btn .fa-map-marker-alt {
+.search-btn .fa-magnifying-glass {
   display: none;
 }
 
 @media (max-width: 768px) {
-  .search-btn .fa-map-marker-alt {
+  .search-btn .fa-magnifying-glass {
     display: block;
   }
 
