@@ -45,7 +45,7 @@
 .nav-links:active {
   padding-top: 38px;
   color: #0065fc;
-  
+
 }
 
 .nav-links:hover {
@@ -107,10 +107,10 @@ h1 {
 }
 
 @media (max-width: 768px) {
-    .search-box {
-        width: 100%;
-    }
+  .search-box {
+    width: 100%;
   }
+}
 
 
 h3 {
@@ -222,7 +222,7 @@ h3 {
 }
 
 .fa-star:before {
-    color: #0065FC;
+  color: #0065FC;
 
 }
 
@@ -254,13 +254,13 @@ h3 {
 }
 
 .acc-card-container {
-    width: 33%;
+  width: 33%;
 }
 
-.accommodations-title > h1 {
-    padding-left: 5px;
-    padding-top: 40px;
-    padding-bottom: 15px;
+.accommodations-title>h1 {
+  padding-left: 5px;
+  padding-top: 40px;
+  padding-bottom: 15px;
 }
 
 .accommodations-cards {
@@ -322,14 +322,14 @@ h3 {
   transform: scale(1.03);
 }
 
-.card-img > img {
+.card-img>img {
   width: 100%;
   height: 200px;
 }
 
 .show-more {
-    padding-left: 70px;
-    padding-bottom: 40px;
+  padding-left: 70px;
+  padding-bottom: 40px;
 }
 
 /* Most Popular section ------------------------------------------------------------------------------------------------------ */
@@ -344,8 +344,8 @@ h3 {
 }
 
 .most-pop-cards {
-    padding-left: 50px;
-    padding-right: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .most-pop-title {
@@ -354,12 +354,12 @@ h3 {
 }
 
 .most-pop-title .fa-star {
-	color: black;
+  color: black;
 }
 
-.most-pop-title > h1 {
+.most-pop-title>h1 {
   padding: 40px 40px 20px 50px;
-}           
+}
 
 .card-pop {
   flex-direction: column;
@@ -402,7 +402,7 @@ h3 {
   flex: 1;
 }
 
-.most-pop-card-img > img {
+.most-pop-card-img>img {
   width: 100%;
   height: 200px;
 }
@@ -438,7 +438,7 @@ h3 {
   box-shadow: -4px 7px 6px 2px #dbdbdb;
 }
 
-.card-split > .card > img {
+.card-split>.card>img {
   height: 250px;
 }
 
@@ -455,26 +455,26 @@ h3 {
   height: 100%;
 }
 
-.card-container > .card,
-.card-container > .card-split {
+.card-container>.card,
+.card-container>.card-split {
   width: 25%;
 }
 
 @media (max-width: 768px) {
-    .card-container {
-      flex-direction: column;
-    }
-  
-    .card-container > .card,
-    .card-container > .card-split {
-      width: 100%;
-    }
-
-    .card-container > .card img,
-    .card-container > .card-split img {
-      height: 250px;
-    }
+  .card-container {
+    flex-direction: column;
   }
+
+  .card-container>.card,
+  .card-container>.card-split {
+    width: 100%;
+  }
+
+  .card-container>.card img,
+  .card-container>.card-split img {
+    height: 250px;
+  }
+}
 
 .card p {
   padding: 10px 15px 15px 15px;
@@ -508,22 +508,22 @@ h3 {
 }
 
 .footer-links:hover {
-    color: #0065fc;
+  color: #0065fc;
 }
 
 @media (max-width: 768px) {
-    .footer {
-      flex-direction: column;
-    }
+  .footer {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 992px) and (min-width: 769px) {
-    .footer {
-        flex-direction: column;
-        align-items: center;
-    }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .footer-list {
-        align-items: center;
-    }
+  .footer-list {
+    align-items: center;
+  }
 }
