@@ -57,6 +57,7 @@
 
 .search-section {
   margin: 40px;
+  margin-bottom: 10px;
 }
 
 h1 {
@@ -176,6 +177,7 @@ h3 {
 .filter-btn {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .filters {
@@ -223,6 +225,15 @@ h3 {
     color: #0065FC;
 
 }
+
+.fa-star.non-active:before {
+  color: #c1c1c1;
+}
+
+.fa-star.black:before {
+  color: black;
+}
+
 
 /* Accommodations section ------------------------------------------------------------------------------------------------------ */
 
@@ -327,6 +338,10 @@ h3 {
 .most-pop-title {
   display: flex;
   justify-content: space-between;
+}
+
+.most-pop-title .fa-star {
+	color: black;
 }
 
 .most-pop-title > h1 {
